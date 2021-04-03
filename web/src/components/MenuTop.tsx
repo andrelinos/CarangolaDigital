@@ -29,14 +29,26 @@ export function MenuTop(): JSX.Element {
               </Link>
             </li>
             <li>
-              <Link href="/account">
-                <a>Conta</a>
-              </Link>
-            </li>
-            <li>
               <Link href="/help">
                 <a>Ajuda</a>
               </Link>
+            </li>
+            <li>
+              <a href="#">Minha Conta</a>
+              <ul>
+                <li>
+                  {/* Bem vindo novamente ao Carangola Digital */}
+                  <span>
+                    <Link href="/signup">Criar Conta</Link>
+                  </span>
+                  <span>
+                    <Link href="/signin">Entrar</Link>
+                  </span>
+                </li>
+                <li>
+                  <Link href="/my-adds">Meus anúncios</Link>
+                </li>
+              </ul>
             </li>
           </ul>
           <div>

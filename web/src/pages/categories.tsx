@@ -1,5 +1,5 @@
+/* eslint-disable @typescript-eslint/no-empty-function */
 import React from 'react';
-
 import styles from '../styles/pages/Categories.module.css';
 
 export default function Categories(): JSX.Element {
@@ -16,12 +16,13 @@ export default function Categories(): JSX.Element {
           </button>
         </div>
 
-        <div className="container-filter">
-          <select value="" onChange={() => {}}>
-            <option value="1">Todos os locais</option>
-            <option value="1">Teste 1</option>
-            <option value="1">Teste 1</option>
-            <option value="1">Teste 1</option>
+        <div className={styles.containerSelect}>
+          <select name="select" id="options-cat">
+            <option value="valor1">Valor 1</option>
+            <option value="valor2" selected>
+              Valor 2
+            </option>
+            <option value="valor3">Valor 3</option>
           </select>
         </div>
       </div>
