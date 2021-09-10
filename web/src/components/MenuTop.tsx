@@ -2,7 +2,7 @@ import React from 'react';
 
 import Link from 'next/link';
 
-import styles from '../styles/components/MenuTop.module.css';
+import styles from '../styles/components/menunav.module.scss';
 
 export function MenuTop(): JSX.Element {
   return (

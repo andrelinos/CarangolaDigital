@@ -1,0 +1,14 @@
+.container {
+  width: 100%;
+
+  form {
+    width: 100%;
+    max-width: 67.5rem;
+    background: #eee;
+    margin: 0 auto;
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import styles from '../styles/pages/Home.module.css';
+import styles from '../styles/pages/home.module.scss';
 
 export function HomePage(): JSX.Element {
   return (

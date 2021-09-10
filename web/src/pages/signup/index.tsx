@@ -1,8 +1,10 @@
 import React from 'react';
 
+import styles from './styles.module.scss';
+
 export default function SignUp(): JSX.Element {
   return (
-    <div className="container">
+    <div className={styles.container}>
       <form>
         <label>
           Nome completo

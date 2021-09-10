@@ -37,6 +37,7 @@
       }
     ],
     "no-use-before-define": "off",
-    "no-alert": "off"
+    "no-alert": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off"
   }
 }

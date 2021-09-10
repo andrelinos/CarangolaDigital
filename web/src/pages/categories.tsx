@@ -1,6 +1,7 @@
 /* eslint-disable @typescript-eslint/no-empty-function */
 import React from 'react';
-import styles from '../styles/pages/Categories.module.css';
+
+import styles from '../styles/pages/categories.module.scss';
 
 export default function Categories(): JSX.Element {
   return (
