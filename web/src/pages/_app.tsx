@@ -1,11 +1,12 @@
 import React from 'react';
 
-import '../styles/globals.css';
+import { AppProps } from 'next/app';
 
 import { MenuTop } from '../components/MenuTop';
+import '../styles/globals.css';
 
 // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <MenuTop />
